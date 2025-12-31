@@ -52,13 +52,12 @@
     }
 
     .logo {
-        background: #fff;   
-        padding: 4px 0;
    
-      height: 70px;
+      height: 60px;
       display: flex;
       align-items: center;
       justify-content: center;
+
     }
 
     .logo h1 {
@@ -83,6 +82,8 @@
       line-height: 1.1;
       text-transform: uppercase;
       text-align: center;
+      clip-path: polygon(0 4%, 100% 0%, 100% 100%, 0% 100%);
+ 
     }
 
     .center {
